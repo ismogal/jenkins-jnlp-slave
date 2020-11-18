@@ -1,4 +1,4 @@
-FROM docker pull quay.io/podman/stable AS podman
+FROM quay.io/podman/stable AS podman
 
 FROM jenkins/jnlp-slave:latest
 USER root
